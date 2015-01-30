@@ -1,0 +1,221 @@
+/*Russell "Eric" Erickson
+ ICT 4510 Advanced Website Design
+ Assignment 2 - CSS Assignment*/
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* end reset browser styles */
+html {
+}
+
+body {
+font-family: "Times New Roman", Times, serif;;
+background-color: #FFFFFF;
+border: 3px solid #4B4B4B;
+box-shadow: 0 0 15px 5px rgba(44,82,100,.5);
+width: 860px;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+padding: 15px;
+}
+h1 {
+font-size: 2em;
+text-indent: 25px;
+padding: 5px 15px 5px 15px;
+/*width: 50px;
+display: inline-block;
+*/
+}
+h2 {
+font-size: 1.5em;
+text-indent: 25px;
+}
+img {
+padding: 10px;
+border: 1px;
+width: 350px;
+height: 250px;
+box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+margin-left: 100px;
+}
+p {
+font-size: 1.25em;
+text-indent: 30px;
+line-height: 200%;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;
+}
+p a {
+border: none;
+color: #0000FF;
+display: inline;
+}
+a {
+text-align: center;
+height: 50px;
+width: 175px;
+display: block;
+border-radius: 10px;
+border: 1px solid #4B4B4B;
+margin: 5px;
+color: #000000;
+}
+h2 a {
+text-decoration: none;
+margin-left: auto;
+margin-right: auto;
+/*text-justify: center;*/
+/*text-align: center;*/
+/*text-height: 75px;*/
+/*text-align: justify;*/
+/*display:inline-block;*/
+vertical-align: middle;
+line-height: 50px;
+}
+label {
+font-size: 1.25em;
+text-indent: 30px;
+line-height: 200%;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;	
+}
+.buttons a {
+text-align: center;
+height: 45px;
+line-height: 45px;
+vertical-align: middle;
+width: 125px;
+display: block;
+border-radius: 10px;
+border: 1px solid #4B4B4B;
+margin: 5px;
+color: #000000;
+-webkit-transition: -webkit-transform .3s, background-color 1s ease-in .3s;
+-moz-transition: -moz-transform .3s, background-color 1s ease-in .3s;
+-o-transition: -o-transform .3s, background-color 1s ease-in .3s;
+-ms-transition: -ms-transform .3s, background-color 1s ease-in .3s;
+transition: transform .3s, background-color 1s ease-in .3s;
+}
+
+.blog {
+background-color: #E16161;
+}
+.contact {
+background-color: #C0C0C0;	
+}
+.resume {  
+background-color: #0066FF;	
+}
+.email {
+width: 400px;
+border: none;
+margin-left: 20px;
+font-size: 1.25em;
+text-indent: 10px;
+line-height: 200%;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;
+}
+	
+ul {margin-left: 20px;
+margin-right: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+font-size: 1.25em;
+list-style-type: none;
+}
+li a {
+font-size: 1.25em;
+border: none;
+text-decoration: none;
+}
+.buttons {
+float: right;
+margin: 10px;
+margin-right: 100px;
+/*text-decoration: none;*/
+}
+figcaption {
+color: #333;
+text-align: left;
+border: 1px #666;
+margin-left: 150px;
+}
+a:visited {
+color: #000000;
+}
+a:hover {
+background-color: #FDF8AB;
+border-bottom-color: #6E97BF;
+-webkit-transform: scale(1.2);
+-moz-transform: scale(1.2);
+-o-transform: scale(1.2);
+-ms-transform: scale(1.2);
+transform: scale(1.2);
+}
+.signup {
+	text-align: center;
+}
+.sidewalk {
+	text-align: center;
+}
+.sidewalk h1 {
+	font-size: 2em;
+	padding: 5px 13px 5px 13px;
+	display: inline-block;
+	background-color: #C0C0C0;
+	margin-left: -4px;
+	border: 1px solid #4B4B4B;
+	text-indent: 0px;
+	/*text-align: center;*/
+	}
+h1#hide {
+	visibility: hidden;
+}
+footer {
+	text-align: center;
+}
+footer p {
+	font-size: 2em;
+	text-indent: 0px;
+	line-height: 100%;
+	display: inline-block;
+	background-color: #E16161;
+	padding: 5px 13px 5px 13px;
+	border: 1px solid #4B4B4B;
+	margin-left: -4px
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
